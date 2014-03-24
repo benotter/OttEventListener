@@ -1,0 +1,43 @@
+"About": {
+    "Name": "EventListener",
+    "Author": "Ben Otter",
+    "Copyright": "Copyright (C) 2014 Benjamin McLean",
+    "Comment": "A Basic JavaScript Event Listener Object",
+    "URL": "",
+    "Help": "",
+    "Identifier": "OTJL"
+}
+"ActionMenu": [
+    [0, "Listen For Event"]
+    "Separator"
+]
+"ConditionMenu": [
+    [0, "On Event Emitted"]
+    "Separator"
+],
+"ExpressionMenu": [
+]
+"Actions": [
+    
+{ "Title": "Listen for %2 on %1 in %0"
+
+                "Parameters":
+                [
+                        ["Text", "Name Of Event Slot"]
+                        ["Text", "Full Name of Object"]
+                        ["Text", "Name of Event to Listen For"]
+                ]
+        }
+]
+"Conditions": [
+    {
+	"Title": "Event %0 Has Been Emitted"
+    "Triggered": true
+    "Parameters":
+        [
+            ["Text", "Name Of Event Slot"]
+        ]
+    }
+]
+"Expressions": [
+]
